@@ -1,0 +1,77 @@
+﻿/*Kameron Wagner CIS184 Final Project*/
+html {
+    background-image: url("../images/media.png"); 
+    background-attachment: fixed;
+}
+header {
+    width: 1000px;
+    background-color: lightgray;
+}
+header img {
+    width: 1000px;
+    height: 250px;
+}
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 1000px;
+    margin: 0 auto; 
+    background-color: #1e404e;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 9px 18px 9px;
+}
+/*Nav Menu*/
+#nav_menu {
+	clear: left;
+}
+#nav_menu ul {
+	list-style: none;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+	width: 180px; 
+    border: 2px solid white;    
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	padding: .7em 0;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+}
+#nav_menu ul li a.current {
+     color: yellow;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+	background-color: #808080;
+}
+/*Main*/
+main section h1 {
+    text-align: center;
+    margin-top: 2.5em;
+}
+main section p {
+    width: 600px;
+    margin-left: 14em;
+}
+#videoplayer {
+    margin-left: 14em;
+}
+main iframe {
+    margin-bottom: 2em;
+    margin-left: 14em;
+}
+main audio {
+    margin-bottom: 2em;
+}
+/*Footer*/
+footer {
+    width: 1000px;
+    background-color: #808080; 
+	clear: both;
+	border-top: 2px solid white;
+    text-align: center;
+    padding-bottom: .5em;
+}

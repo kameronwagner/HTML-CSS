@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<!-- Kameron Wagner CIS184 Final Project -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CIS184 Final Project</title>
+    <link rel="shortcut icon" href="images/icon.png"/>
+    <link rel="stylesheet" href="styles/normalize.css"/>
+	<link rel="stylesheet" href="styles/information.css"/>
+</head>
+<body>
+    <header>
+        <img src="images/header.jpg" alt="header"/>
+    </header>
+    <nav id="nav_menu">
+  	<ul>
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="rpg.html">RPG</a></li>
+    	<li><a href="mmo.html">MMO-RPG</a></li>
+    	<li><a href="media.html">Media</a></li>
+    	<li><a href="information.html" class="current">Information</a></li>
+	</ul>
+  </nav>
+  <main>
+	<section>
+    	<h1>Information Request</h1>
+        <form action="submit.html" method="get"
+        		name="submit_form" id="submit_form">
+	        		<label for="email">E-Mail:</label>
+	        		<input type="email" name="email" id="email" autofocus="autofocus" required="required"/><br/>
+	        		<label for="first_name">First Name:</label>
+					<input type="text" name="first_name" id="first_name" required="required"/><br/>
+					<label for="last_name">Last Name:</label>
+					<input type="text" name="last_name" id="last_name" required="required"/><br/>
+					<label for="address">Address:</label>
+					<input type="text" name="address" id="address"/><br/>
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city"/><br/>
+					<label for="state">State:</label>
+					<input type="text" name="state" id="state" maxlength="2" placeholder="2-character code"/><br/>
+					<label for="zip">ZIP Code:</label>
+					<input type="text" name="zip" id="zip" placeholder="5 or 9 digits" 
+				    	   pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"/><br/>
+					<label for="phone">Phone Number:</label>
+					<input type="tel" name="phone" id="phone" placeholder="9999999999" 
+				    	   pattern="\d{3}\d{3}\d{4}" title="Must be 999999999 format"/><br/>
+                    <input type="submit" id="submit" value="Submit"/>
+					<input type="reset" id="reset" value="Reset"/>
+             </form>
+        <img src="images/information2.jpg" alt="dragon"/>
+	</section>
+  </main>
+
+  <footer>
+	<p>&copy; 2016 Kameron Wagner CIS184</p>
+  </footer>
+</body>
+</html>
