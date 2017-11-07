@@ -1,0 +1,36 @@
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\bin\Debug\ProjectTracker.exe.config
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\bin\Debug\ProjectDatabase.mdf
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\bin\Debug\ProjectDatabase_log.ldf
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\bin\Debug\ProjectTracker.exe
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\bin\Debug\ProjectTracker.pdb
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.csprojResolveAssemblyReference.cache
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.MainForm.resources
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.Properties.Resources.resources
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.csproj.GenerateResource.Cache
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.exe
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.pdb
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.EmployeeForm.resources
+c:\users\kwag\documents\visual studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.TaskForm.resources
+C:\Users\Kwag\Documents\Visual Studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.ProjectForm.resources
+C:\Users\Kwag\Documents\Visual Studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.ProjectTasksForm.resources
+C:\Users\Kwag\Documents\Visual Studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.EmployeeTasksForm.resources
+C:\Users\Kwag\Documents\Visual Studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.ProjectEmployeesForm.resources
+C:\Users\Kwag\Documents\Visual Studio 2015\Projects\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.HoursInputForm.resources
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\bin\Debug\ProjectTracker.exe.config
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.exe
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.pdb
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\bin\Debug\ProjectDatabase.mdf
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\bin\Debug\ProjectDatabase_log.ldf
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\bin\Debug\ProjectTracker.exe
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\bin\Debug\ProjectTracker.pdb
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.csprojResolveAssemblyReference.cache
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.EmployeeForm.resources
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.HoursInputForm.resources
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.MainForm.resources
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.ProjectEmployeesForm.resources
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.ProjectForm.resources
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.ProjectTasksForm.resources
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.Properties.Resources.resources
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.TaskForm.resources
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.EmployeeTasksForm.resources
+G:\CIS 266\Project\Final\ProjectTracker\ProjectTracker\obj\Debug\ProjectTracker.csproj.GenerateResource.Cache
