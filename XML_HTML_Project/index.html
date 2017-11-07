@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<!--Programmed By: Kameron Wagner and Peter Moore  11/06/2017  CIS 189-->
+<!--Sources-->
+<!--https://www.w3schools.com/xml/ajax_applications.asp-->
+<!--https://www.w3schools.com/css/css_table.asp-->
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>WA Weather °C</title>
+    <link rel="stylesheet" href="main.css" />
+
+</head>
+
+<body>
+    <button type="button" class="button" onclick="loadXMLDoc()"></button>
+    <br><br>
+    <h1>Click Me!</h1>
+    <br><br>
+    <p id="showWeather"></p>
+    <br><br>
+    <table id="temp"></table>
+    <!--Loads XML document into table format-->
+    <script>
+        function loadXMLDoc() {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xmlhttp.open("GET", "WeatherReadings.xml", true);
+            xmlhttp.send();
+        }
+        function myFunction(xml) {
+            var i, xmlhttp;
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", "WeatherReadings.xml", false);
+            xmlhttp.send();
+            xmlDoc = xmlhttp.responseXML;
+            var xmlDoc = xml.responseXML;
+            var x = xmlDoc.getElementsByTagName("WeatherReading");
+            var table = "<tr><th>City</th><th>Date</th><th>Time</th><th>Temperature</th></tr>";
+            for (i = 0; i < x.length; i++) {
+                table += "<tr onclick='displayWeather(" + i + ")'><td>";
+                table += x[i].getElementsByTagName("city")[0].childNodes[0].nodeValue;
+                table += "</td><td>";
+                table += x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue;
+                table += "</td><td>";
+                table += x[i].getElementsByTagName("time")[0].childNodes[0].nodeValue;
+                table += "</td><td>";
+                table += x[i].getElementsByTagName("temp")[0].childNodes[0].nodeValue;
+                table += "</td></tr>";
+            }
+            document.getElementById("temp").innerHTML = table;
+
+            function displayWeather(i) {
+                document.getElementById("showWeather").innerHTML =
+                    "City: " +
+                    x[i].getElementsByTagName("city")[0].childNodes[0].nodeValue +
+                    "<br>Date: " +
+                    x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue +
+                    "<br>Time: " +
+                    x[i].getElementsByTagName("time")[0].childNodes[0].nodeValue +
+                    "<br>Temperature: " +
+                    x[i].getElementsByTagName("temp")[0].childNodes[0].nodeValue;
+            }
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2017 Kameron Wagner & Peter Moore CIS189</p>
+    </footer>
+</body>
+</html>
